@@ -75,7 +75,7 @@
 Установка проекта
 
 ```bash
-  git clone https://github.com/realaskaer/BeraMachine.git
+ git clone https://github.com/arun993/Berachain.git
 ```
 
 Для установки необходимых библиотек, пропишите в консоль
