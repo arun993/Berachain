@@ -12,11 +12,6 @@ def get_network_by_chain_id(chain_id):
     }[chain_id]
 
 
-async def mint_berachain_tokens(account_number, private_key, proxy, *_):
-    worker = Faucet(get_client(account_number, private_key, proxy))
-    return await worker.claim_berachain_tokens()
-
-
 async def swap_bex(account_number, private_key, proxy, *_, **kwargs):
     worker = BeraChain(get_client(account_number, private_key, proxy))
     return await worker.swap_bex(**kwargs)
